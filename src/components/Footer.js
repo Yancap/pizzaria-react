@@ -3,12 +3,12 @@ import { Btn } from './assets/Btn'
 import { Colunm } from './assets/Colunm'
 import { H4 } from './footer/H4'
 import { Infos } from './footer/Infos'
-import { Logo } from './nav/Logo'
+import { Logo } from './assets/Logo'
 import { Navbar } from './nav/Navbar'
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className='container-fluid'>
         <div>
             <Logo/>
         </div>

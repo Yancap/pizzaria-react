@@ -1,0 +1,12 @@
+.btn-header{
+    
+    height: 60px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.anchor-btn-header{
+    color: rgb(var(--bs-tertiary-rgb)) !important;
+}

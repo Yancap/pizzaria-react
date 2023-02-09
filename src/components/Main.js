@@ -5,7 +5,7 @@ import { Menu } from '../pages/menu-page/Menu'
 
 export const Main = () => {
   return (
-    <main>
+    <main className='container-fluid'>
       <Home/>
       <Espace/>
       <Menu />
