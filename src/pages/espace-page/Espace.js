@@ -5,7 +5,7 @@ import { GridFooter } from './assets/GridFooter'
 import { GridTop } from './assets/GridTop'
 export const Espace = () => {
   return (
-    <section>
+    <section className='container-fluid'>
         
         <LabelImg text="Nosso Espaço" />
         <Paragraph p="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

@@ -5,7 +5,7 @@ import { FooterSlide } from './FooterSlide'
 
 export const Slide3 = () => {
   return (
-    <div>
+    <div className='slider'>
         <TitleH2 name="Tradição Familiar"/>
         <div className=''>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

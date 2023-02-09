@@ -8,7 +8,7 @@ import { FooterSlide } from './FooterSlide'
 
 export const Slider1 = () => {
   return (
-    <div>
+    <div className='slider'>
         <TitleH2 name="Nosso Menu"/>
         <div className=''>
             <Card title='Pizza' subtitle={null} classType='pizza'/>

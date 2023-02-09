@@ -7,7 +7,7 @@ import { SectionMenu } from './assets/SectionMenu'
 
 export const Menu = () => {
   return (
-    <section>
+    <section className='container-fluid'>
         <LabelImg text="Cardapio" />
         <div>
             <div>

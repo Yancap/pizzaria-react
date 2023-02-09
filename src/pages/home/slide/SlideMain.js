@@ -2,6 +2,6 @@ import React from 'react'
 
 export const SlideMain = ({children}) => {
   return (
-    <section>{children}</section>
+    <section className='slider-main'>{children}</section>
   )
 }
