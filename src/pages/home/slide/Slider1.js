@@ -8,9 +8,9 @@ import { FooterSlide } from './FooterSlide'
 
 export const Slider1 = () => {
   return (
-    <div className='slider'>
-        <TitleH2 name="Nosso Menu"/>
-        <div className=''>
+    <div className='carousel-item active slider-item-1'>
+        <TitleH2 name="Nosso Menu" className='title title-carousel'/>
+        <div className='card-container d-flex col-6 justify-content-between'>
             <Card title='Pizza' subtitle={null} classType='pizza'/>
             <Card title='Massa' subtitle={null} classType='massa'/>
             <Card title='Sobremesa' subtitle={null} classType='sobremesa'/>

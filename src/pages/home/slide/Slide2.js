@@ -4,7 +4,7 @@ import { FooterSlide } from './FooterSlide'
 
 export const Slide2 = () => {
   return (
-    <div className='slider'>
+    <div className='carousel-item slider-item-2'>
         <FunctionalTitle name='Promoção do Dia' classType={null} />
         <div className=''>
             <p>Peça 2 Pizzas tamanho G e Ganhe 1 Pizza brotinho</p>

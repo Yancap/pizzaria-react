@@ -2,7 +2,7 @@ import React from 'react'
 import { Btn } from './assets/Btn'
 import { Logo } from './assets/Logo'
 import { Navbar } from './nav/Navbar'
-import './css/Header.css'
+import './css/Components.css'
 export const Header = () => {
   return (
     <header className='header bg-danger container-fluid '>

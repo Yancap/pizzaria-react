@@ -8,7 +8,7 @@ import { Slide3 } from './slide/Slide3'
 import { SlideMain } from './slide/SlideMain'
 import { Slider1 } from './slide/Slider1'
 import { Tradition } from './tradition/Tradition'
-import './css/styles.css'
+import './css/Home.css'
 export const Home = () => {
   return (
     <section>

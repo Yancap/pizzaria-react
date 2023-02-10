@@ -1,0 +1,40 @@
+
+/* ------------------ SLIDER ----------------- */
+.slider-main{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.carousel-item{
+    width: 100vw;
+    height: 650px;
+}
+
+.slider-item-1{
+    background-image: url("images/img-slider1.png");
+}
+.slider-item-2{
+    background-image: url("images/img-slider2.png");
+}
+.slider-item-3{
+    background-image: url("images/img-slider3.png");
+}
+.carousel-item .title-carousel {
+    font-size: 4.25rem;
+}
+
+.carousel-item .card-container{
+
+}
+
+.carousel-item .card{
+    border: 2px solid white;
+    
+    height: 170px;
+    width: 170px;
+}
+.carousel-item .card .title{
+    font: 16px;
+}

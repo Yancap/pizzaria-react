@@ -1,3 +1,6 @@
+@import url('../components/css/Common.css');
+@import url('../components/css/Components.css');
+
 :root{
     --bs-primary-rgb: 211, 141, 59;
     --bs-secondary-rgb: 100, 79, 79;

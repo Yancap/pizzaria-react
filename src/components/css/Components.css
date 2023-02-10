@@ -1,5 +1,6 @@
+
+/* ----------- HEADER ------------- */
 .btn-header{
-    
     height: 50px;
     padding: 0 5px;
     display: flex;
@@ -9,4 +10,10 @@
 
 .anchor-btn-header{
     color: rgb(var(--bs-tertiary-rgb)) !important;
+}
+
+/* ----------- NAVBAR ------------- */
+
+.nav-header{
+    min-width: 300px;
 }
