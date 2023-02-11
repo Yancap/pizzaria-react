@@ -2,7 +2,7 @@ import React from 'react'
 
 export const SlideMain = ({children}) => {
   return (
-    <section id="carousel" className='carousel slide' data-bs-ride="carousel">
+    <section id="carousel" className='carousel slide ' >
 
       <div class="carousel-indicators">
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -10,7 +10,7 @@ export const SlideMain = ({children}) => {
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
 
-      <div className="carousel-inner">
+      <div className="carousel-inner ">
         {children}
       </div>
       

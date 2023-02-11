@@ -1,12 +1,15 @@
 @import url('../components/css/Common.css');
 @import url('../components/css/Components.css');
-
+html{
+    font-family: 'Poppins', sans-serif;
+}
 :root{
     --bs-primary-rgb: 211, 141, 59;
     --bs-secondary-rgb: 100, 79, 79;
     --padding-default: 15%;
     --bs-danger-rgb: 100, 4, 11;
     --bs-tertiary-rgb: 249, 238, 201;
+    --bs-warning-rgb: 250, 220, 113;
     --bs-btn-border-radius: 1px;
 }
 
@@ -26,7 +29,25 @@
     --bs-btn-disabled-bg: rgb(var(--bs-primary-rgb));
     --bs-btn-disabled-border-color: rgb(var(--bs-primary-rgb));
 }
-
+.btn-warning {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #FADC71;
+    --bs-btn-border-color: #FADC71;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ebc94f;
+    --bs-btn-hover-border-color: #ebc94f;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ebc94f;
+    --bs-btn-active-border-color: #ebc94f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #FADC71;
+    --bs-btn-disabled-border-color: #FADC71;
+}
+.text-tertiary{
+    color: rgb(var(--bs-tertiary-rgb));
+}
 .btn a{
     display: block;
 
@@ -39,7 +60,7 @@ a{
 }
 
 .border{
-    border:4px solid black;
+    border:4px solid rgb(1, 226, 1);
 }
 
 .bg{
@@ -59,6 +80,3 @@ a{
     font-family: 'Gabriela', sans-serif;
 }
 
-.text-functional{
-    font-family: 'Poppins', sans-serif;
-}

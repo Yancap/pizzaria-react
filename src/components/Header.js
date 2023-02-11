@@ -10,7 +10,7 @@ export const Header = () => {
         <Logo/>
         <div className='d-flex col-8 justify-content-evenly'>
           <Navbar navs={["Restaurante", "Cardápio", "Reservas", "Contato"]} classType="nav-header col-7 d-flex align-items-end justify-content-between"/>
-          <Btn name="FAÇA SUA RESERVA"  link="#" classBtn={"btn-header d-flex align-items-center align-self-end"} classAnchor="anchor-btn-header text-display"/>
+          <Btn name="FAÇA SUA RESERVA"  link="#" classBtn={"btn-primary btn-header d-flex align-items-center align-self-end"} classAnchor="anchor-btn-header text-display"/>
         </div>
       </div>
     </header>

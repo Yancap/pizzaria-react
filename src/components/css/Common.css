@@ -18,6 +18,9 @@
 .label-card .position-relative{
     z-index: 5;
 }
+.card{
+    flex-shrink: 0;
+}
 .overlay-label{
     position: absolute;
     width: 100%;

@@ -25,16 +25,45 @@
     font-size: 4.25rem;
 }
 
-.carousel-item .card-container{
-
-}
 
 .carousel-item .card{
-    border: 2px solid white;
-    
+    border: 0.25px solid rgb(82, 81, 81);
+    overflow: hidden;
     height: 170px;
     width: 170px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.carousel-item .card:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
 }
 .carousel-item .card .title{
-    font: 16px;
+    font-size: 28px;
+}
+
+.carousel-item .anchor-btn{
+    font-size: 2.5rem;
+}
+
+.carousel-item .price{
+    font-size: 88px;
+}
+
+.carousel-item .title-extra{
+    color: #BA4A52;
+}
+
+.footer-slider p{
+    margin: 0;
+}
+
+.carousel-item .btn-primary{
+    height: 5.25rem;
+    width: 22.75rem;
+    font-size: 3rem;
+}
+
+.carousel-item .btn-primary a:hover{
+    color: rgb(var(--bs-tertiary-rgb)) !important;
 }
