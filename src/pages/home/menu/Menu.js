@@ -4,14 +4,19 @@ import { TitleH2 } from '../../../components/assets/TitleH2'
 
 export const Menu = ({children}) => {
   return (
-    <section id='section-menu'>
+    <section id='section-menu' className='mt-5'>
         {children}
-        <TitleH2 name="Cardapio" />
-        <div>
-            <Card title='Pizza' subtitle="Tradizione italiana" idName='pizza'/>
-            <Card title='Massa' subtitle="Ricetta di famiglia" idName='massa'/>
-            <Card title='Sobremesa' subtitle="Esclusività della casa" idName='sobremesa'/>
-            <Card title='Drinks' subtitle="i migliori dolci" idName='drink'/>
+        <TitleH2 name="Cardapio" className="title title-green mt-5"/>
+        <div className='grid-card'>
+          
+            <Card title='Pizza' subtitle="Tradizione italiana" className='pizza'/>
+            <Card title='Massa' subtitle="Ricetta di famiglia" className='massa'/>
+            <Card title='Drinks' subtitle="i migliori dolci" className='drink '/>
+          
+            <Card title='Sobremesa' subtitle="Esclusività della casa" className='sobremesa '/>
+            
+          
+            
         </div>
     </section>
   )

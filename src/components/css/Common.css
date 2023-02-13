@@ -29,3 +29,25 @@
     mix-blend-mode: multiply;
     top: 0;
 }
+/* ------ CARD CARDAPIO ---------- */
+
+.grid-card .pizza{
+    background-image: url("images/grid-pizza-cardapio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-card .massa{
+    background-image: url("images/grid-massa-cardapio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-card .drink{
+    background-image: url("images/grid-drink-cardapio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-card .sobremesa{
+    background-image: url("images/grid-sobremesa-cardapio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

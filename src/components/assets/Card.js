@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const Card = ({title, subtitle, classType}) => {
+export const Card = ({title, subtitle, className}) => {
   return (
     
-    <div className={`card d-flex justify-content-center ${classType}`} >
+    <div className={`card d-flex justify-content-center ${className}`} >
         <div className='label-card d-flex justify-content-center'>
-          <div className='position-relative'>
-            <div>
+          <div className='position-relative d-flex flex-column align-items-center'>
+            <div className='subtitle'>
                 <p>{subtitle}</p>
             </div>
             <div>

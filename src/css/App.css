@@ -11,6 +11,7 @@ html{
     --bs-tertiary-rgb: 249, 238, 201;
     --bs-warning-rgb: 250, 220, 113;
     --bs-btn-border-radius: 1px;
+    --bs-green-rgb: 59, 79, 16;
 }
 
 .btn-primary {
@@ -47,6 +48,10 @@ html{
 }
 .text-tertiary{
     color: rgb(var(--bs-tertiary-rgb));
+}
+.title-green{
+    color: rgb(var(--bs-green-rgb));
+    font-size: 4.25rem;
 }
 .btn a{
     display: block;

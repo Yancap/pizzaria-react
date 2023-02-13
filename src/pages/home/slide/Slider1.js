@@ -11,10 +11,10 @@ export const Slider1 = () => {
     <div className='carousel-item active slider-item-1 container-fluid pt-5 position-relative '>
         <TitleH2 name="Nosso Menu" className='title title-carousel'/>
         <div className='card-container d-flex col-9 justify-content-between '>
-            <Card title='Pizzas' subtitle={null} classType='pizza '/>
-            <Card title='Massas' subtitle={null} classType='massa'/>
-            <Card title='Sobremesas' subtitle={null} classType='sobremesa'/>
-            <Card title='Drinks' subtitle={null} classType='drink'/>
+            <Card title='Pizzas' subtitle={null} className='pizza '/>
+            <Card title='Massas' subtitle={null} className='massa'/>
+            <Card title='Sobremesas' subtitle={null} className='sobremesa'/>
+            <Card title='Drinks' subtitle={null} className='drink'/>
         </div>
         <TitleH3 name='Rodizio + Refil livre' className='text-display text-warning mt-5' style={{fontSize: '2.5rem'}}/>
         <div className='d-flex col-12 justify-content-between'>
