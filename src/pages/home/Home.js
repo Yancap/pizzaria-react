@@ -19,14 +19,20 @@ export const Home = () => {
             <Slide3></Slide3>
         </SlideMain>
         <div className='container-fluid'>
-          <Menu></Menu>
+          <Menu />
+        </div>
           <Separator />
           <BtnMenu />
+        <div className='container-fluid'> 
           <Rodizio />
-          <Separator />
-          <Tradition />
-          <Separator />
         </div>
+         
+          <Separator />
+        <div className='container-fluid'>
+          <Tradition />
+        </div>
+          <Separator />
+        
         
     </section>
   )

@@ -4,7 +4,7 @@ import { TitleH2 } from '../../../components/assets/TitleH2'
 
 export const Menu = ({children}) => {
   return (
-    <section id='section-menu' className='mt-5'>
+    <section id='section-menu' className='my-5'>
         {children}
         <TitleH2 name="Cardapio" className="title title-green mt-5"/>
         <div className='grid-card'>

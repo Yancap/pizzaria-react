@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Paragraph = ({p, classType}) => {
+export const Paragraph = ({p, className}) => {
   return (
     <div>
-        <p className={classType}>{p}</p>
+        <p className={className}>{p}</p>
     </div>
   )
 }

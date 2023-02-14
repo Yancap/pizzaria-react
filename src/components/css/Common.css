@@ -1,5 +1,12 @@
 /* -------------------------- CARD ---------------------------- */
-
+.pizza, .massa, .drink, .sobremesa{
+    cursor: pointer;
+    transition: 0.25s ease-in;
+}
+.pizza:hover, .massa:hover, .drink:hover, .sobremesa:hover{
+    transform: scale(1.025);
+    transition: 0.25s ease-in;
+}
 .carousel-item .pizza{
     background-image: url("images/card-pizza.png");
 }
@@ -44,7 +51,35 @@
     background-image: url("images/grid-sobremesa-cardapio.png");
 }
 
-.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3{
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+/* ------------ SEPARADOR E CARDAPIO --------------- */
+
+.separator{
+    width: 100vw;
+    height: 10px;
+}
+.separator span:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 6px dashed rgb(var(--bs-primary-rgb));
+}
+.separator span:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 6px dashed rgb(var(--bs-red-rgb));
+}
+
+.btn-menu{
+    background-color:rgb(var(--bs-red-rgb));
+    font-weight: 700;
+    font-size: 1.75rem;
+    width: 50%;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.btn-menu:hover{
+    background-color:#721117;
 }

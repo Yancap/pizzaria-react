@@ -12,6 +12,7 @@ html{
     --bs-warning-rgb: 250, 220, 113;
     --bs-btn-border-radius: 1px;
     --bs-green-rgb: 59, 79, 16;
+    --bs-red-rgb:146, 35, 43;
 }
 
 .btn-primary {
@@ -85,3 +86,14 @@ a{
     font-family: 'Gabriela', sans-serif;
 }
 
+.paragraph{
+    color: rgb(var(--bs-secondary-rgb));
+}
+.descriptions{
+    width: 55%;
+}
+
+.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, .img-pizza-rodizio, .img-garcom-rodizio{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
