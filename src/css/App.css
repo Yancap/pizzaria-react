@@ -12,6 +12,7 @@ html{
     --bs-warning-rgb: 250, 220, 113;
     --bs-btn-border-radius: 1px;
     --bs-green-rgb: 59, 79, 16;
+    --bs-green-ligth-rgb:169, 191, 105;
     --bs-red-rgb:146, 35, 43;
 }
 
@@ -90,10 +91,12 @@ a{
     color: rgb(var(--bs-secondary-rgb));
 }
 .descriptions{
-    width: 55%;
+    width: 40vw;
 }
 
-.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, .img-pizza-rodizio, .img-garcom-rodizio{
+.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, 
+.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2
+{
     background-repeat: no-repeat;
     background-size: cover;
 }

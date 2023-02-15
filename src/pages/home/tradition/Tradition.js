@@ -7,11 +7,11 @@ import { Images } from '../assets/Images'
 
 export const Tradition = () => {
   return (
-    <section id="section-tradition" className='my-5'>
+    <section id="section-tradition" >
        
-        <div>
+        <div className='mt-5'>
             <TitleH2 name="Nossa Tradição" className="title title-green mt-5"/>
-            <div>
+            <div className='d-flex justify-content-between'>
                 <div>
                    <Paragraph p="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -23,16 +23,19 @@ export const Tradition = () => {
                 </div>
            
                 <div>
-                    <img src="" alt="" srcset="" />
+                    <div className='img-tradicao'></div>
                 </div>
             </div>
         </div>
-        <div>
-            <TitleH2 name="Nosso Espaço" className="title title-green mt-5"/>
-            <div>
+        <div className='d-flex flex-column'>
+            <div className=' align-self-end' style={{width: '40vw'}}>
+                <TitleH2 name="Nosso Espaço" className="title title-green mt-5"/>
+            </div>
+            
+            <div className='d-flex justify-content-between'>
                 <Images>
-                    <img src="" alt="" srcset="" />
-                    <img src="" alt="" srcset="" />
+                    <div className='img-espaco-2 position-relative'></div>
+                    <div className='img-espaco-1 position-relative'></div>
                 </Images>
                 <div>
                     <Paragraph p="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

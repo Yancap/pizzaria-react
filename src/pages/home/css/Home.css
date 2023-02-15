@@ -124,3 +124,81 @@
    left: 6rem;
    bottom: 10rem;
 }
+
+.invite{
+    background-color: #440005;
+    border: 5px dashed rgb(var(--bs-primary-rgb));
+    width: 490px;
+    height: 578px;
+}
+
+.invite h3{
+    font-size: 2.25rem;
+}
+.invite p{
+    color: rgb(var(--bs-green-ligth-rgb));
+    font-weight: 400;
+    margin: 0;
+}
+.invite .btn-reserva, .invite .btn-cardapio{
+    transition: 0.2s ease-in;
+}
+
+.invite .btn-reserva{
+    background-color: rgb(var(--bs-green-rgb));
+    
+    height: 4.25rem;
+    width: 16.5rem;
+}
+.invite .btn-reserva:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    background-color: rgb(var(--bs-green-rgb));
+}
+.invite .anchor-reserva{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(var(--bs-green-ligth-rgb));
+}
+.invite footer p{
+    opacity: 0.7;
+    font-weight: 600;
+}
+.invite .btn-cardapio{
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(var(--bs-warning-rgb));
+    height: 2.25rem;
+    width: 8.25rem;
+}
+.invite .btn-cardapio:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    background-color: rgb(var(--bs-warning-rgb));
+}
+
+.invite .anchor-cardapio{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+
+/* --------------- TRADIÇÂO --------------- */
+#section-tradition{
+    margin-top: 5rem;
+}
+.img-tradicao{
+    background-image: url('images/chef1-tradicao.png');
+    width: 23.75rem;
+    height: 20.5rem;
+}
+.img-espaco-1{
+    background-image: url('images/espaco-tradicao.png');
+    width: 20.75rem;
+    height: 20.5rem;
+}
+.img-espaco-2{
+    background-image: url('images/chef2-tradicao.png');
+    width: 20.75rem;
+    height: 20.5rem;
+}
