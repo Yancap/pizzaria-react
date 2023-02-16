@@ -2,6 +2,7 @@
 @import url('../components/css/Components.css');
 html{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 :root{
     --bs-primary-rgb: 211, 141, 59;
@@ -14,6 +15,7 @@ html{
     --bs-green-rgb: 59, 79, 16;
     --bs-green-ligth-rgb:169, 191, 105;
     --bs-red-rgb:146, 35, 43;
+    --bs-red-dark-rgb:68, 0, 5;
 }
 
 .btn-primary {
@@ -48,7 +50,13 @@ html{
     --bs-btn-disabled-bg: #FADC71;
     --bs-btn-disabled-border-color: #FADC71;
 }
+.bg-red-dark{
+    background-color: rgb(var(--bs-red-dark-rgb));
+}
 .text-tertiary{
+    color: rgb(var(--bs-tertiary-rgb));
+}
+.text-tertiary:hover{
     color: rgb(var(--bs-tertiary-rgb));
 }
 .title-green{

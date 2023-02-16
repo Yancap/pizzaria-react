@@ -25,3 +25,38 @@
     transition: border-bottom 0.12s ease-in;
     
 }
+
+/* ------------ FOOTER -------------- */
+.select-nav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(var(--bs-primary-rgb));
+    transition: 0.1s ease-in;
+}
+
+.select-nav::before{
+    content: '>';
+    font-family: 'Poppins';
+    color: rgb(var(--bs-primary-rgb));
+    font-weight: 600;
+    font-size: 26px;
+    margin-right: 3px;
+}
+.select-nav:hover{
+    transition: 0.1s ease-in;
+    transform: scale(1.05);
+}
+
+.btn-footer{
+    width: 19.75rem;
+    height: 60px;
+}
+.anchor-btn-footer{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer i + p{
+    margin-bottom: 0;
+}

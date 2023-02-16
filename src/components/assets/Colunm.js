@@ -1,7 +1,7 @@
-import React, { Children } from 'react'
+import React from 'react'
 
 export const Colunm = ({children}) => {
   return (
-    <div>{children}</div>
+    <div className=''>{children}</div>
   )
 }
