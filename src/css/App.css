@@ -16,6 +16,7 @@ html{
     --bs-green-ligth-rgb:169, 191, 105;
     --bs-red-rgb:146, 35, 43;
     --bs-red-dark-rgb:68, 0, 5;
+    --bs-grey-dark-rgb: 41, 41, 41;
 }
 
 .btn-primary {
@@ -101,9 +102,13 @@ a{
 .descriptions{
     width: 40vw;
 }
-
+.text{
+    color: rgb(var(--bs-grey-dark-rgb));
+    font-weight: 700;
+    font-size: 19px;
+}
 .pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, 
-.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2
+.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2, .label
 {
     background-repeat: no-repeat;
     background-size: cover;

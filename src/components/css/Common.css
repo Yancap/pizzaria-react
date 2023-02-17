@@ -83,3 +83,17 @@
 .btn-menu:hover{
     background-color:#721117;
 }
+
+
+/* ------ LABEL ------- */
+.label{
+    background-image: url('./images/Tarja-flores.png');
+    height: 10rem;
+    
+}
+
+.label h1{
+    font-size: 4.25rem;
+    color: #64040B;
+    mix-blend-mode: multiply;
+}
