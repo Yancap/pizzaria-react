@@ -100,15 +100,15 @@ a{
     color: rgb(var(--bs-secondary-rgb));
 }
 .descriptions{
-    width: 40vw;
+    width:  40vw;
 }
 .text{
     color: rgb(var(--bs-grey-dark-rgb));
     font-weight: 700;
-    font-size: 19px;
+    font-size: 18px;
 }
 .pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, 
-.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2, .label
+.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2, .label, .image
 {
     background-repeat: no-repeat;
     background-size: cover;

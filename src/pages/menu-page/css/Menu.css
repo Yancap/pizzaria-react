@@ -1,0 +1,93 @@
+.title-menu{
+    font-size: 4.25rem;
+    color: rgb(var(--bs-grey-dark-rgb));
+}
+
+.square{
+    width: 22vw;
+    min-width: 210px;
+    height: 22vw;
+    min-height: 210px;
+}
+
+.rectangle{
+    width: 22vw;
+    min-width: 210px;
+    height: 30vw;
+    min-height: 302px;
+}
+.pizza-1{
+    background-image: url('images/pizzas/pizza-c-1.png');
+}
+.pizza-2{
+    background-image: url('images/pizzas/pizza-c-2.png');
+}
+.pizza-3{
+    background-image: url('images/pizzas/pizza-c-3.png');
+}
+.pizza-4{
+    background-image: url('images/pizzas/pizza-S-1.png');
+}
+.pizza-5{
+    background-image: url('images/pizzas/pizza-S-2.png');
+}
+.pizza-6{
+    background-image: url('images/pizzas/pizza-S-3.png');
+}
+
+.massa-1{
+    background-image: url('images/massas/massa-c-1.png');
+}
+.massa-2{
+    background-image: url('images/massas/massa-c-2.png');
+}
+.massa-3{
+    background-image: url('images/massas/massa-c-3.png');
+}
+.massa-4{
+    background-image: url('images/massas/massa-S-1.png');
+}
+.massa-5{
+    background-image: url('images/massas/massa-S-2.png');
+}
+.massa-6{
+    background-image: url('images/massas/massa-S-3.png');
+}
+
+.drink-1{
+    background-image: url('images/drink/drink-c-1.png');
+}
+.drink-2{
+    background-image: url('images/drink/drink-c-2.png');
+}
+.drink-3{
+    background-image: url('images/drink/drink-c-3.png');
+}
+.drink-4{
+    background-image: url('images/drink/drink-S-1.png');
+}
+.drink-5{
+    background-image: url('images/drink/drink-S-2.png');
+}
+.drink-6{
+    background-image: url('images/drink/drink-S-3.png');
+}
+
+.doce-1{
+    background-image: url('images/doces/doce-c-1.png');
+}
+.doce-2{
+    background-image: url('images/doces/doce-c-2.png');
+}
+.doce-3{
+    background-image: url('images/doces/doce-c-3.png');
+}
+.doce-4{
+    background-image: url('images/doces/doce-S-1.png');
+}
+.doce-5{
+    background-image: url('images/doces/doce-S-2.png');
+}
+.doce-6{
+    background-image: url('images/doces/doce-S-3.png');
+}
