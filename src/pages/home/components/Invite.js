@@ -1,6 +1,6 @@
 import React from 'react'
-import { Btn } from '../../../components/assets/Btn'
-import { TitleH3 } from '../../../components/assets/TitleH3'
+import { Btn } from '../../../components/common/Btn'
+import { TitleH3 } from '../../../components/common/TitleH3'
 
 export const Invite = () => {
   return (

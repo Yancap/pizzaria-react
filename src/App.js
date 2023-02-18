@@ -12,7 +12,7 @@ function App() {
     <div className='main-container text-primary bg'>
       <Header setPage={setPage}></Header>
       <Main page={page} />
-      <Footer></Footer>
+      <Footer setPage={setPage}></Footer>
     </div>
   );
 }

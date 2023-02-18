@@ -1,9 +1,8 @@
 import React from 'react'
-import { Btn } from '../../../components/assets/Btn'
-import { Card } from '../../../components/assets/Card'
-import { FunctionalTitle } from '../../../components/assets/FunctionalTitle'
-import { TitleH2 } from '../../../components/assets/TitleH2'
-import { TitleH3 } from '../../../components/assets/TitleH3'
+import { Btn } from '../../../components/common/Btn'
+import { Card } from '../../../components/common/Card'
+import { TitleH2 } from '../../../components/common/TitleH2'
+import { TitleH3 } from '../../../components/common/TitleH3'
 import { FooterSlide } from './FooterSlide'
 
 export const Slider1 = () => {

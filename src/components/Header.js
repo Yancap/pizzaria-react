@@ -1,8 +1,9 @@
 import React from 'react'
-import { Btn } from './assets/Btn'
-import { Logo } from './assets/Logo'
-import { Navbar } from './nav/Navbar'
+import { Btn } from './common/Btn'
+import { Logo } from './common/Logo'
+import { Navbar } from './common/Navbar'
 import './css/Components.css'
+
 export const Header = ({setPage}) => {
   return (
     <header className='header bg-danger container-fluid '>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { TitleH3 } from '../../../components/assets/TitleH3'
+import { TitleH3 } from '../../../components/common/TitleH3'
 import { FooterSlide } from './FooterSlide'
 
 export const Slide2 = () => {

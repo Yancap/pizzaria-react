@@ -2,8 +2,8 @@ import React from 'react'
 
 export const GridTop = ({children}) => {
   return (
-    <div>
-        <div>
+    <div className='d-flex justify-content-between'>
+        <div >
             {children[0]}
         </div>
         <div>

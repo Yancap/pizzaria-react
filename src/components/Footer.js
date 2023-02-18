@@ -1,14 +1,13 @@
 import React from 'react'
-import { Btn } from './assets/Btn'
-import { TitleH3 } from './assets/TitleH3'
+import { Btn } from './common/Btn'
+import { TitleH3 } from './common/TitleH3'
+import { Logo } from './common/Logo'
 
-import { Logo } from './assets/Logo'
-import { Navbar } from './nav/Navbar'
 
-export const Footer = () => {
+export const Footer = ({setPage}) => {
   return (
     <footer className='footer container-fluid bg-red-dark py-5'>
-        <div className='mb-4'>
+        <div className='mb-4' onClick={()=> setPage(0)} style={{cursor: 'pointer'}}>
             <Logo/>
         </div>
         <div className='d-flex justify-content-between'>
@@ -32,8 +31,10 @@ export const Footer = () => {
             <div className='col-3'>
                 <TitleH3 name="Navegação" className='text-display'/>
                 <nav>
-                    {["Home", "Restaurante", "Cardápio", "Reservas", "Contato"].map((nav)=>(
-                    <div className='select-nav'>
+                    {["Home", "Restaurante", "Cardápio", "Reservas", "Contato"].map((nav, index)=>(
+                    <div className='select-nav' onClick={()=>{
+                        setPage(index)
+                    }} key={index}>
                         <a href='#' className='text-tertiary'>{nav}</a>
                     </div>
                     ))}

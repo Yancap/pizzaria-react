@@ -1,6 +1,6 @@
 import React from 'react'
-import { Card } from '../../../components/assets/Card'
-import { TitleH2 } from '../../../components/assets/TitleH2'
+import { Card } from '../../../components/common/Card'
+import { TitleH2 } from '../../../components/common/TitleH2'
 
 export const Menu = ({children}) => {
   return (

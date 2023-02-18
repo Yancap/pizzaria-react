@@ -1,6 +1,6 @@
 import React from 'react'
-import { Btn } from '../../../components/assets/Btn'
-import { TitleH2 } from '../../../components/assets/TitleH2'
+import { Btn } from '../../../components/common/Btn'
+import { TitleH2 } from '../../../components/common/TitleH2'
 import { FooterSlide } from './FooterSlide'
 
 export const Slide3 = () => {

@@ -1,9 +1,9 @@
 import React from 'react'
-import { BtnMenu } from '../../components/assets/BtnMenu'
-import { LabelImg } from '../../components/assets/LabelImg'
-import { Separator } from '../../components/assets/Separator'
-import { HeaderMenu } from './assets/HeaderMenu'
-import { SectionMenu } from './assets/SectionMenu'
+import { BtnMenu } from '../../components/common/BtnMenu'
+import { LabelImg } from '../../components/common/LabelImg'
+import { Separator } from '../../components/common/Separator'
+import { HeaderMenu } from './utility/HeaderMenu'
+import { SectionMenu } from './utility/SectionMenu'
 
 export const Menu = () => {
   return (
