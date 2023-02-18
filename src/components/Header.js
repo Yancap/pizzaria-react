@@ -12,7 +12,7 @@ export const Header = ({setPage}) => {
           <Logo/>
         </div>
         
-        <div className='d-flex col-8 justify-content-evenly'>
+        <div className='d-flex col-xl-8 col-lg-10 col-12 justify-content-evenly'>
           <Navbar setPage={setPage} navs={["Restaurante", "Cardápio", "Reservas", "Contato"]} classType="nav-header col-7 d-flex align-items-end justify-content-between"/>
           <Btn name="FAÇA SUA RESERVA"  link="#" classBtn={"btn-primary btn-header d-flex align-items-center align-self-end"} classAnchor="anchor-btn-header text-display"/>
         </div>
