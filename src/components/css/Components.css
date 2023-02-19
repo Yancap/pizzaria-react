@@ -12,6 +12,10 @@
     color: rgb(var(--bs-tertiary-rgb)) !important;
 }
 
+.nav-mobile{
+    display: none;
+}
+
 /* ----------- NAVBAR ------------- */
 
 .nav-header{

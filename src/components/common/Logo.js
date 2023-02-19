@@ -3,7 +3,7 @@ import React from 'react'
 export const Logo = () => {
   return (
     <div>
-        <img src="logo.svg" alt="" />
+        <img src="logo.svg" className='img-fluid' alt="" />
     </div>
   )
 }
