@@ -11,7 +11,23 @@ const ContainerDesktop = styled.div`
     display: none;
   }
 `
+const ContainerMobile = styled.div`
+  display: none;
+  @media (max-width: 992px) {
+    display: block;
+  }
+`
+const Price = styled.h4`
+  font-size: 5.5em;
+  
 
+`
+const ButtonCardapio = styled.div`
+  color:#FADC71;
+  padding: 0.8em 1.2em;
+  border-radius: 0px 40px 40px 0px;
+  
+`
 
 export const Slider1 = () => {
   return (
@@ -27,11 +43,15 @@ export const Slider1 = () => {
           </div>
         </ContainerDesktop>
 
-        <TitleH3 name='Rodizio + Refil livre' className='text-display text-warning mt-5' style={{fontSize: '2.5rem'}}/>
-        <div className='d-flex col-12 justify-content-between flex-wrap'>
-            <TitleH3 name='R$ 69,00' className='text-display text-primary price'/>
-            <Btn name='FAÇA SUA RESERVA' link='#' classBtn='btn btn-warning px-5 py-3 align-self-center flex-shrink-0' classAnchor='text-danger text-display anchor-btn'/>
+        <TitleH3 name='Rodizio + Refil livre' className='text-display text-warning mt-5 fs-1' />
+        <div className='div-price d-flex col-12 justify-content-between flex-wrap '>
+            <Price className='text-display text-primary'>R$ 49,90</Price>
+            <Btn name='FAÇA SUA RESERVA' link='#' classBtn='btn btn-warning px-5 py-3 align-self-center flex-shrink-0' classAnchor='text-danger text-display  fs-1'/>
         </div>
+        <ContainerMobile className='mt-4'>
+          <FooterSlide name="Oferta válida apenas em finais de semana" className='text-primary mt-2 fs-5 fw-lighter'/>
+          <ButtonCardapio className='btn bg-danger fs-2 text-display'>Veja o Cardapio</ButtonCardapio>
+        </ContainerMobile>
         <ContainerDesktop>
           <FooterSlide name="Oferta válida apenas em finais de semana" className='text-primary position-absolute bottom-0'/>
         </ContainerDesktop>
