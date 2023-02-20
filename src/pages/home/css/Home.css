@@ -54,6 +54,7 @@
 
 .footer-slider p{
     margin: 0;
+    font-size: 1em;
 }
 
 .carousel-item .btn-primary{
@@ -203,7 +204,7 @@
 
 
 @media screen and (max-width: 942px) {
-    .div-price, .div-price .btn-warning, .slider-item-1{
+    .div-price, .div-price .btn-warning, .slider-item-1, .footer-slider{
         font-size: 14px;
     }
 }

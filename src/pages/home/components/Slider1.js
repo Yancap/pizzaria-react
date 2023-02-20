@@ -4,6 +4,7 @@ import { Btn } from '../../../components/common/Btn'
 import { Card } from '../../../components/common/Card'
 import { TitleH2 } from '../../../components/common/TitleH2'
 import { TitleH3 } from '../../../components/common/TitleH3'
+import { ButtonCallAction } from './ButtonCallAction'
 import { FooterSlide } from './FooterSlide'
 
 const ContainerDesktop = styled.div`
@@ -22,12 +23,7 @@ const Price = styled.h4`
   
 
 `
-const ButtonCardapio = styled.div`
-  color:#FADC71;
-  padding: 0.8em 1.2em;
-  border-radius: 0px 40px 40px 0px;
-  
-`
+
 
 export const Slider1 = () => {
   return (
@@ -50,7 +46,7 @@ export const Slider1 = () => {
         </div>
         <ContainerMobile className='mt-4'>
           <FooterSlide name="Oferta válida apenas em finais de semana" className='text-primary mt-2 fs-5 fw-lighter'/>
-          <ButtonCardapio className='btn bg-danger fs-2 text-display'>Veja o Cardapio</ButtonCardapio>
+          <ButtonCallAction className='btn bg-danger fs-2 text-display'>Veja o Cardapio</ButtonCallAction>
         </ContainerMobile>
         <ContainerDesktop>
           <FooterSlide name="Oferta válida apenas em finais de semana" className='text-primary position-absolute bottom-0'/>
