@@ -21,7 +21,6 @@ const ContainerMobile = styled.div`
 const Price = styled.h4`
   font-size: 5.5em;
   
-
 `
 
 
