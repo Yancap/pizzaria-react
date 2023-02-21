@@ -58,8 +58,6 @@
 }
 
 .carousel-item .btn-primary{
-    height: 5.25rem;
-    width: 22.75rem;
     font-size: 3rem;
 }
 
@@ -75,8 +73,6 @@
     grid-auto-rows: 110px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    
-    
 }
 .grid-card .card{
     border: none;
@@ -95,18 +91,38 @@
 .grid-card .sobremesa{
     grid-row: 6/11;
 }
-.grid-card .title{
-    font-size: 3.25rem;
+.grid-card .title h3{
+    font-size: 3.25em;
 }
 .grid-card .subtitle p{
     color: #A9BF69;
     margin: 10px 0 0 0;
+    font-size: 1em;
 }
 
 .grid-card .label-card{
     padding: 25px 0;
 }
 
+@media screen and (max-width: 768px) {
+    #section-menu .grid-card{
+        grid-template-columns: 100%;
+        grid-auto-rows: 255px;
+        grid-template-rows: repeat(4, 70vw);
+    }
+    .grid-card .pizza, .grid-card .massa, .grid-card .drink, .grid-card .sobremesa{
+        grid-row:inherit;
+    }
+    .grid-card .label-card{
+        padding: 5vw 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .grid-card .subtitle, .grid-card .title{
+        font-size: 14px;
+    }
+}
 /* --------------- RODIZIO --------------- */
 .img-pizza-rodizio{
     background-image: url('images/pizzas-rodizio.png');

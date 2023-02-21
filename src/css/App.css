@@ -123,13 +123,17 @@ a{
 
 /* HEADER // NAVBAR */
 
-
+.navbar{
+    width: 100vw;
+}
 @media screen and (max-width: 992px) {
     .nav-desktop{
         display: none;
     }
     .nav-mobile{
         display: block;
+        width: 100vw;
+        position: relative;
     }
     
 }

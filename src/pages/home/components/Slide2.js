@@ -5,12 +5,12 @@ import { ButtonCallAction } from './ButtonCallAction'
 import { FooterSlide } from './FooterSlide'
 
 
-const ContainerDesktop = styled.div`
+export const ContainerDesktop = styled.div`
     @media screen and (max-width: 500px){
       display: none;
     }
 `
-const ContainerMobile = styled.div`
+export const ContainerMobile = styled.div`
   display: none;
   @media screen and (max-width: 500px){
       display: block;

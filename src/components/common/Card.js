@@ -9,8 +9,8 @@ export const Card = ({title, subtitle, className}) => {
             <div className='subtitle'>
                 <p>{subtitle}</p>
             </div>
-            <div>
-                <h3 className='title'>{title}</h3>
+            <div className='title'>
+                <h3 >{title}</h3>
             </div>
           </div>
             

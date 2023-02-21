@@ -1,14 +1,23 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Logo } from './Logo'
+
+const DivLogo = styled.div`
+    width: 8em;
+    cursor: pointer;
+    @media screen and (max-width: 500px){
+        width: 7em;
+    }
+`
 
 export const NavBurguer = ({setPage}) => {
 const navs = ["Home", "Restaurante", "Cardápio", "Reservas", "Contato"]
   return (
-        <nav className="navbar fixed-top bg-danger py-2">
+        <nav className="navbar fixed-top bg-danger">
             <div className="container-fluid">
-                <div onClick={()=> setPage(0)} style={{cursor: 'pointer', width: '8rem'}}>
+                <DivLogo onClick={()=> setPage(0)} >
                     <Logo/>
-                </div>
+                </DivLogo>
                 <button className="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span className='navbar-toggler-stroke'></span>
                     <span className='navbar-toggler-stroke'></span>
