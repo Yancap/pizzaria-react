@@ -124,30 +124,33 @@
 /* --------------- RODIZIO --------------- */
 .img-pizza-rodizio{
     background-image: url('images/pizzas-rodizio.png');
-    width: 294px;
-    height: 382px;
+    width: 22vw;
+    height: 26vw;
+    min-height: 16em;
+    min-width: 13em;
 }
 .img-garcom-rodizio{
     background-image: url('images/garcom-rodizio.png');
-    width: 325px;
-    height: 366px;
+    width: 23vw;
+    height: 25vw;
+    min-height: 16em;
+    min-width: 13em;
 }
 
 .overlap div:nth-child(2){
    left: 6rem;
    bottom: 10rem;
+   min-height: 16rem;
 }
 
 .invite{
     background-color: #440005;
     border: 5px dashed rgb(var(--bs-primary-rgb));
-    width: 490px;
+    width: 35vw;
+    min-width: 25rem;
     height: 578px;
 }
 
-.invite h3{
-    font-size: 2.25rem;
-}
 .invite p{
     color: rgb(var(--bs-green-ligth-rgb));
     font-weight: 400;
@@ -194,8 +197,33 @@
     font-weight: 700;
     
 }
-
-
+@media screen and (max-width: 1060px){
+    .container-invite{
+        order: 0;
+        margin-bottom: 10px;
+    }
+    .container-images{
+        display: flex;
+        order: 1;
+    }
+    .container-images div{
+        width: 33vw;
+        height: 35vw;
+    }
+    .overlap div:nth-child(2){
+        left: -6vw;
+        top: 4rem;
+    }
+    .invite{
+        width: 55vw;
+        min-width: 25em;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-invite, .container-invite div, .container-images{
+        font-size: 14px;
+    }
+}
 /* --------------- TRADIÇÂO --------------- */
 #section-tradition{
     margin-top: 5rem;

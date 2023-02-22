@@ -1,12 +1,13 @@
 import React from 'react'
 import { Card } from '../../../components/common/Card'
-import { TitleH2 } from '../../../components/common/TitleH2'
+import { TitleSection } from '../components/TitleSection'
+
 
 export const Menu = ({children}) => {
   return (
     <section id='section-menu' className='my-5'>
         {children}
-        <TitleH2 name="Cardapio" className="title title-green mt-5"/>
+        <TitleSection className="title title-green mt-5" >Cardapio</TitleSection>
         <div className='grid-card'>
             <Card title='Pizza' subtitle="Tradizione italiana" className='pizza'/>
             <Card title='Massa' subtitle="Ricetta di famiglia" className='massa'/>

@@ -1,17 +1,22 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Btn } from '../../../components/common/Btn'
 import { TitleH3 } from '../../../components/common/TitleH3'
 
+const Title = styled.h3`
+    font-size: 2.25em;
+`
+
 export const Invite = () => {
   return (
-  <div className=''>
+  <div className='container-invite'>
     <div className='position-relative d-flex flex-column justify-content-evenly align-items-center invite'>
         <div className='text-center'>
-            <p style={{fontSize: '14px'}}>Não perca essa oportunidade</p>
-            <TitleH3 name="Faça sua Reserva" className='text-display'/>
+            <p style={{fontSize: '0.9em'}}>Não perca essa oportunidade</p>
+            <Title className='text-display'>Faça sua Reserva</Title>
         </div>
         
-        <div style={{fontSize: '14px'}}>
+        <div style={{fontSize: '0.9em'}}>
             <p>Seg a Sex - 11h as 22h </p>
             <p>Sab a Dom - 14h as 00h</p>
         </div>

@@ -65,7 +65,7 @@ html{
 }
 .title-green{
     color: rgb(var(--bs-green-rgb));
-    font-size: 4.25rem;
+
 }
 .btn a{
     display: block;
@@ -104,6 +104,18 @@ a{
 }
 .descriptions{
     width:  40vw;
+}
+
+@media screen and (max-width: 1100px){
+    .descriptions{
+        width:  60vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .descriptions{
+        width:  100%;
+        text-align: center;
+    }
 }
 .text{
     color: rgb(var(--bs-grey-dark-rgb));

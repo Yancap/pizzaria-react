@@ -1,5 +1,5 @@
 import React from 'react'
-import { TitleH2 } from '../../../components/common/TitleH2'
+import { TitleSection } from '../components/TitleSection'
 import { Images } from '../components/Images'
 
 
@@ -9,7 +9,7 @@ export const Tradition = () => {
     <section id="section-tradition" >
        
         <div className='mt-5'>
-            <TitleH2 name="Nossa Tradição" className="title title-green mt-5"/>
+            <TitleSection className="title title-green mt-5">Nossa Tradição</TitleSection>
             <div className='d-flex justify-content-between'>
                 <div>
                    <p className='text-display paragraph descriptions'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -27,7 +27,7 @@ export const Tradition = () => {
         </div>
         <div className='d-flex flex-column'>
             <div className=' align-self-end' style={{width: '40vw'}}>
-                <TitleH2 name="Nosso Espaço" className="title title-green mt-5"/>
+            <TitleSection className="title title-green mt-5">Nosso Espaço</TitleSection>
             </div>
             
             <div className='d-flex justify-content-between'>
