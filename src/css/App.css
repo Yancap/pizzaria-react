@@ -107,7 +107,7 @@ a{
 }
 
 @media screen and (max-width: 1100px){
-    .descriptions{
+    #section-rodizio .descriptions{
         width:  60vw;
     }
 }
@@ -148,4 +148,33 @@ a{
         position: relative;
     }
     
+}
+
+/* FOOTER */
+.info-footer p {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 768px){
+    .footer-item-1, .footer-item-3{
+        height: 220px;
+    }
+    .footer-item-2{
+        height: 270px;
+    }
+    .btn-footer{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .btn-footer{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .info-footer, .link-footer{
+        font-size: 14px;
+    }
 }

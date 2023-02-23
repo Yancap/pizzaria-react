@@ -1,8 +1,13 @@
 import React from 'react'
 import { TitleSection } from '../components/TitleSection'
 import { Images } from '../components/Images'
+import styled from 'styled-components'
 
-
+const ContainerMobile = styled.div`
+    @media screen and (max-width: 992px) {
+        
+    }
+`
 
 export const Tradition = () => {
   return (
@@ -10,7 +15,7 @@ export const Tradition = () => {
        
         <div className='mt-5'>
             <TitleSection className="title title-green mt-5">Nossa Tradição</TitleSection>
-            <div className='d-flex justify-content-between'>
+            <div className='d-flex justify-content-between flex-lg-row align-items-lg-stretch flex-column align-items-center'>
                 <div>
                    <p className='text-display paragraph descriptions'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -18,24 +23,21 @@ export const Tradition = () => {
                     <p className='text-display paragraph descriptions'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     </p>
-                </div>
-           
-                <div>
-                    <div className='img-tradicao'></div>
-                </div>
+                </div> 
+                <div className='img-tradicao'></div>
             </div>
         </div>
         <div className='d-flex flex-column'>
-            <div className=' align-self-end' style={{width: '40vw'}}>
-            <TitleSection className="title title-green mt-5">Nosso Espaço</TitleSection>
+            <div className='align-self-lg-end' >
+                <TitleSection className="title title-green mt-5" style={{width: '40vw'}}>Nosso Espaço</TitleSection>
             </div>
             
-            <div className='d-flex justify-content-between'>
-                <Images>
+            <div className='d-flex justify-content-between flex-lg-row align-items-lg-stretch flex-column align-items-center'>
+                <Images className='order-lg-1 order-2 w-100'>
                     <div className='img-espaco-2 position-relative'></div>
                     <div className='img-espaco-1 position-relative'></div>
                 </Images>
-                <div>
+                <div className='order-lg-2 order-1'>
                     <p className='text-display paragraph descriptions'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { Logo } from './Logo'
 
@@ -11,8 +12,14 @@ const DivLogo = styled.div`
 `
 
 export const NavBurguer = ({setPage}) => {
-const navs = ["Home", "Restaurante", "Cardápio", "Reservas", "Contato"]
-  return (
+    const navs = [
+        {name:"Home", path:"/"},
+        {name:"Restaurante", path:"nosso-espaco"}, 
+        {name:"Cardápio", path:"cardapio"}, 
+        {name:"Reservas", path:"reservas"}, 
+        {name:"Contatos", path:"contatos"}
+      ]  
+      return (
         <nav className="navbar fixed-top bg-danger">
             <div className="container-fluid">
                 <DivLogo onClick={()=> setPage(0)} >
@@ -33,7 +40,9 @@ const navs = ["Home", "Restaurante", "Cardápio", "Reservas", "Contato"]
                         {
                             navs.map((nav, i)=>(
                                 <li key={i} className="nav-item" >
-                                    <a className="nav-link text-primary text-display mb-2" href='#' onClick={() => {setPage(i)}} >{nav}</a>
+                                    <Link to={nav.path}>
+                                        <a className="nav-link text-primary text-display mb-2" href='#' >{nav.name}</a>
+                                    </Link>
                                 </li>
                             ))
                         }
