@@ -6,16 +6,10 @@ export const SectionMenu = ({subtitle, children}) => {
         <div className='text-center'>
             <p className='text-display paragraph ' style={{fontSize: '1.5em'}}>{subtitle}</p>
         </div>
-        <div className='d-flex justify-content-between'>
-            <div>
+        <div className='d-flex justify-content-lg-between justify-content-evenly flex-wrap'>
                 {children[0]}
-            </div>
-            <div>
                 {children[1]}
-            </div>
-            <div>
                 {children[2]}
-            </div>
         </div>
     </div>
   )

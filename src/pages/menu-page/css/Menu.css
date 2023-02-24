@@ -5,17 +5,32 @@
 
 .square{
     width: 22vw;
-    min-width: 210px;
+    min-width: 240px;
     height: 22vw;
-    min-height: 210px;
+    min-height: 240px;
+    margin-bottom: 10px;
 }
 
 .rectangle{
     width: 22vw;
-    min-width: 210px;
+    min-width: 240px;
     height: 30vw;
-    min-height: 302px;
+    min-height: 342px;
+    margin-bottom: 10px;
 }
+
+@media screen and (max-width: 650px){
+    .square{
+        width: 60vw;
+        height: 60vw;
+        min-width: 260px;
+        min-height: 260px;
+    }
+}
+
+
+
+
 .pizza-1{
     background-image: url('images/pizzas/pizza-c-1.png');
 }
