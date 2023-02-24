@@ -230,18 +230,18 @@
 }
 .img-tradicao{
     background-image: url('images/chef1-tradicao.png');
-    width: 27vw;
-    height: 20.5rem;
+    width: 29vw;
+    height: 22.5rem;
 }
 .img-espaco-1{
     background-image: url('images/espaco-tradicao.png');
-    width: 23vw;
-    height: 20.5rem;
+    width: 25vw;
+    height: 22.5rem;
 }
 .img-espaco-2{
     background-image: url('images/chef2-tradicao.png');
-    width: 23vw;
-    height: 20.5rem;
+    width: 25vw;
+    height: 22.5rem;
 }
 #section-tradition .overlap div:nth-child(2){
     left: 4vw;
@@ -251,13 +251,13 @@
  @media screen and (max-width: 992px) {
     .img-tradicao{
         width: 100%;
-        height: 22em;
+        height: 26em;
     }
     #section-tradition .descriptions{
         width: 100%;
     }
     .img-espaco-1, .img-espaco-2{
-        width: 50vw;
+        width: 55vw;
     }
     #section-tradition .overlap div:nth-child(2){
         left: 15vw;

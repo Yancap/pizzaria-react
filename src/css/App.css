@@ -10,7 +10,7 @@ html{
 :root{
     --bs-primary-rgb: 211, 141, 59;
     --bs-secondary-rgb: 100, 79, 79;
-    --padding-default: 15%;
+    --padding-default: 12%;
     --bs-danger-rgb: 100, 4, 11;
     --bs-tertiary-rgb: 249, 238, 201;
     --bs-warning-rgb: 250, 220, 113;
@@ -111,6 +111,14 @@ a{
         width:  60vw;
     }
 }
+
+
+@media screen and (max-width: 768px){
+    #section-rodizio .descriptions{
+        width:  initial;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 768px){
     .descriptions{
         width:  100%;
@@ -119,8 +127,7 @@ a{
 }
 .text{
     color: rgb(var(--bs-grey-dark-rgb));
-    font-weight: 700;
-    font-size: 18px;
+    font-size: 1.12em;
 }
 .pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, 
 .img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2, .label, .image

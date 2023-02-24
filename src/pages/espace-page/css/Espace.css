@@ -8,21 +8,19 @@
     'ft-1 ft-2 ft-3'
     'ft-1 ft-2 ft-3'
     'ft-1 ft-2 ft-3'
-    'ft-1 ft-2 ft-3'
     'ft-1 ft-5 ft-3'
     'ft-4 ft-5 ft-6'
     'ft-4 ft-5 ft-6'
     'ft-4 ft-5 ft-6'
     'ft-4 ft-5 ft-6'
-    'ft-4 ft-5 ft-6'
     ;
-    row-gap: 25px;
+    gap: 1vw;
 }
 
 .image{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 350px;
+    
 }
 .espace-1{
     background-image: url('images/foto-espaco-1.png');
@@ -47,4 +45,24 @@
 .espace-6{
     background-image: url('images/foto-espaco-6.png');
     grid-area: ft-6;
+}
+
+@media screen and (max-width: 768px){
+    .grid-espace{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15vw;
+        grid-template-areas: 
+        'ft-1 ft-2'
+        'ft-1 ft-2'
+        'ft-1 ft-4'
+        'ft-3 ft-4'
+        'ft-3 ft-4'
+        'ft-3 ft-4'
+        'ft-5 ft-4'
+        'ft-5 ft-6'
+        'ft-5 ft-6'
+        ;
+        gap: 1vw;
+    }
+
 }

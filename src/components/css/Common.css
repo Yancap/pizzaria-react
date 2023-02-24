@@ -93,10 +93,25 @@
 }
 
 .label h1{
-    font-size: 4.25rem;
+    font-size: 4.25em;
     color: #64040B;
     mix-blend-mode: multiply;
 }
+
+@media screen and (max-width: 600px) {
+    .label{
+        text-align: center;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .label h1{
+        font-size: 3.25em;
+        
+    }
+}
+
+
 
 /* --------- MENU HAMBÚRGUER -------------- */
 .navbar-toggler {
@@ -113,6 +128,3 @@
     background-color: rgb(var(--bs-tertiary-rgb));
 }
 
-.navbar{
-    
-}
