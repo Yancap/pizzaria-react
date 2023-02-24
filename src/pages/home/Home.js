@@ -9,10 +9,11 @@ import { SlideMain } from './sections/SlideMain'
 import { Slider1 } from './components/Slider1'
 import { Tradition } from './sections/Tradition'
 import './css/Home.css'
+import { Head } from '../Head'
 export const Home = () => {
   return (
     <section>
-      
+      <Head title="Home" />
         <SlideMain>
             <Slider1></Slider1>
             <Slide2></Slide2>

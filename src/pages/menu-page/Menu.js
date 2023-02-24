@@ -2,13 +2,15 @@ import React from 'react'
 import { BtnMenu } from '../../components/common/BtnMenu'
 import { LabelImg } from '../../components/common/LabelImg'
 import { Separator } from '../../components/common/Separator'
+import { Head } from '../Head'
 import { HeaderMenu } from './utility/HeaderMenu'
 import { SectionMenu } from './utility/SectionMenu'
 
 export const Menu = () => {
   return (
     <section className='mb-5 pb-5'>
-        <LabelImg text="Cardapio" />
+        <Head title="Cardápio" />
+        <LabelImg text="Cardápio" />
         <div className='container-fluid'>
             <div className='d-flex flex-column align-items-center'>
                 <HeaderMenu title="Pizza" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

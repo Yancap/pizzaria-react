@@ -3,10 +3,12 @@ import { LabelImg } from '../../components/common/LabelImg'
 import { GridFooter } from './utility/GridFooter'
 import { GridTop } from './utility/GridTop'
 import './css/Espace.css'
+import { Head } from '../Head'
 
 export const Espace = () => {
   return (
     <section className='pb-5' >
+      <Head title="Nosso Espaço" />
         <LabelImg text="NOSSO ESPAÇO" />
         <div className='container-fluid'>
           <p className='paragraph text py-5' style={{width: '60vw'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
