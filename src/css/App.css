@@ -156,6 +156,12 @@ a{
     }
     
 }
+@media screen and (max-width: 500px) {
+    .offcanvas.offcanvas-end{
+        width: 60vw;
+    }
+    
+}
 
 /* FOOTER */
 .info-footer p {
@@ -177,6 +183,10 @@ a{
 @media screen and (max-width: 768px){
     .btn-footer{
         width: 70vw;
+    }
+    .btn-menu{
+        font-size: 1.5rem;
+        padding: 12px;
     }
 }
 

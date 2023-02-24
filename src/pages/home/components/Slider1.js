@@ -30,7 +30,7 @@ export const Slider1 = () => {
         
         <ContainerDesktop>
           <TitleH2 name="Nosso Menu" className='title title-carousel'/>
-          <div className='card-container d-flex col-xl-10 col-12  justify-content-between flex-wrap'>
+          <div className='card-container d-flex col-xxl-9 col-12  justify-content-between flex-wrap'>
               <Card title='Pizzas' subtitle={null} className='pizza '/>
               <Card title='Massas' subtitle={null} className='massa'/>
               <Card title='Sobremesas' subtitle={null} className='sobremesa'/>
