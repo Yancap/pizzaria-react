@@ -5,6 +5,30 @@ import { Separator } from '../../components/common/Separator'
 import { Head } from '../Head'
 import { HeaderMenu } from './utility/HeaderMenu'
 import { SectionMenu } from './utility/SectionMenu'
+import pizzaT1 from '../../assets/images/menu/pizzas/pizza-c-1.png'
+import pizzaT2 from '../../assets/images/menu/pizzas/pizza-c-2.png'
+import pizzaT3 from '../../assets/images/menu/pizzas/pizza-c-3.png'
+import pizzaS1 from '../../assets/images/menu/pizzas/pizza-S-1.png'
+import pizzaS2 from '../../assets/images/menu/pizzas/pizza-S-2.png'
+import pizzaS3 from '../../assets/images/menu/pizzas/pizza-S-1.png'
+import massaT1 from '../../assets/images/menu/massas/massa-c-1.png'
+import massaT2 from '../../assets/images/menu/massas/massa-c-2.png'
+import massaT3 from '../../assets/images/menu/massas/massa-c-3.png'
+import massaS1 from '../../assets/images/menu/massas/massa-S-1.png'
+import massaS2 from '../../assets/images/menu/massas/massa-S-2.png'
+import massaS3 from '../../assets/images/menu/massas/massa-S-1.png'
+import drinkT1 from '../../assets/images/menu/drinks/drink-c-1.png'
+import drinkT2 from '../../assets/images/menu/drinks/drink-c-2.png'
+import drinkT3 from '../../assets/images/menu/drinks/drink-c-3.png'
+import drinkS1 from '../../assets/images/menu/drinks/drink-S-1.png'
+import drinkS2 from '../../assets/images/menu/drinks/drink-S-2.png'
+import drinkS3 from '../../assets/images/menu/drinks/drink-S-1.png'
+import doceT1 from '../../assets/images/menu/doces/doce-c-1.png'
+import doceT2 from '../../assets/images/menu/doces/doce-c-2.png'
+import doceT3 from '../../assets/images/menu/doces/doce-c-3.png'
+import doceS1 from '../../assets/images/menu/doces/doce-S-1.png'
+import doceS2 from '../../assets/images/menu/doces/doce-S-2.png'
+import doceS3 from '../../assets/images/menu/doces/doce-S-1.png'
 
 export const Menu = () => {
   return (
@@ -17,14 +41,26 @@ export const Menu = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." />
                 <div className='w-100'>
                     <SectionMenu subtitle="Pizze Tradizionali">
-                        <div className="image pizza-1 square"></div>
-                        <div className="image pizza-2 square"></div>
-                        <div className="image pizza-3 square"></div>
+                        <div className=" square">
+                            <img src={pizzaT1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={pizzaT2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={pizzaT3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                     <SectionMenu subtitle="Pizze Speciali">
-                        <div className="image pizza-4 square"></div>
-                        <div className="image pizza-5 square"></div>
-                        <div className="image pizza-6 square"></div>
+                        <div className=" square">
+                            <img src={pizzaS1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={pizzaS2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={pizzaS3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                 </div>
                 
@@ -34,14 +70,26 @@ export const Menu = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." />
                 <div className='w-100'>
                     <SectionMenu subtitle="Paste Tradizionali">
-                        <div className="image massa-1 square"></div>
-                        <div className="image massa-2 square"></div>
-                        <div className="image massa-3 square"></div>
+                        <div className=" square">
+                            <img src={massaT1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={massaT2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={massaT3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                     <SectionMenu subtitle="Paste Speciali">
-                        <div className="image massa-4 square"></div>
-                        <div className="image massa-5 square"></div>
-                        <div className="image massa-6 square"></div>
+                        <div className=" square">
+                            <img src={massaS1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={massaS2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" square">
+                            <img src={massaS3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                 </div>
                 
@@ -51,14 +99,26 @@ export const Menu = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." />
                 <div className='w-100'>
                     <SectionMenu subtitle="Drinks della casa">
-                        <div className="image drink-1 rectangle"></div>
-                        <div className="image drink-2 rectangle"></div>
-                        <div className="image drink-3 rectangle"></div>
+                        <div className=" rectangle">
+                            <img src={drinkT1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" rectangle">
+                            <img src={drinkT2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" rectangle">
+                            <img src={drinkT3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                     <SectionMenu subtitle="Drinks Speciali">
-                        <div className="image drink-4 rectangle"></div>
-                        <div className="image drink-5 rectangle"></div>
-                        <div className="image drink-6 rectangle"></div>
+                        <div className=" rectangle">
+                            <img src={drinkS1} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" rectangle">
+                            <img src={drinkS2} alt="" className="img-fluid" />
+                        </div>
+                        <div className=" rectangle">
+                            <img src={drinkS3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                 </div>
                 
@@ -68,14 +128,26 @@ export const Menu = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." />
                 <div className='w-100'>
                     <SectionMenu subtitle="Dolci Tradizionali">
-                        <div className="image doce-1 square"></div>
-                        <div className="image doce-2 square"></div>
-                        <div className="image doce-3 square"></div>
+                        <div className="square">
+                            <img src={doceT1} alt="" className="img-fluid" />
+                        </div>
+                        <div className="square">
+                            <img src={doceT2} alt="" className="img-fluid" />
+                        </div>
+                        <div className="square">
+                            <img src={doceT3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                     <SectionMenu subtitle="Dolci Speciali">
-                        <div className="image doce-4 square"></div>
-                        <div className="image doce-5 square"></div>
-                        <div className="image doce-6 square"></div>
+                        <div className="square">
+                            <img src={doceS1} alt="" className="img-fluid" />
+                        </div>
+                        <div className="square">
+                            <img src={doceS2} alt="" className="img-fluid" />
+                        </div>
+                        <div className="square">
+                            <img src={doceS3} alt="" className="img-fluid" />
+                        </div>
                     </SectionMenu>
                 </div>
                 

@@ -129,9 +129,7 @@ a{
     color: rgb(var(--bs-grey-dark-rgb));
     font-size: 1.12em;
 }
-.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, 
-.img-pizza-rodizio, .img-garcom-rodizio, .img-tradicao, .img-espaco-1, .img-espaco-2, .label, .image
-{
+.pizza, .massa, .drink, .sobremesa, .slider-item-1, .slider-item-2, .slider-item-3, .label{
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -157,7 +155,7 @@ a{
     
 }
 @media screen and (max-width: 500px) {
-    .offcanvas.offcanvas-end{
+    .offcanvas .offcanvas-end{
         width: 60vw;
     }
     

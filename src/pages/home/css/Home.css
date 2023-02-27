@@ -122,20 +122,13 @@
     }
 }
 /* --------------- RODIZIO --------------- */
-.img-pizza-rodizio{
-    background-image: url('images/pizzas-rodizio.png');
+.img-pizza-rodizio, .img-garcom-rodizio{
     width: 22vw;
     height: 26vw;
     min-height: 16em;
     min-width: 13em;
 }
-.img-garcom-rodizio{
-    background-image: url('images/garcom-rodizio.png');
-    width: 23vw;
-    height: 25vw;
-    min-height: 16em;
-    min-width: 13em;
-}
+
 
 #section-rodizio .overlap div:nth-child(2){
    left: 6rem;
@@ -229,20 +222,14 @@
     margin-top: 5rem;
 }
 .img-tradicao{
-    background-image: url('images/chef1-tradicao.png');
     width: 29vw;
     height: 22.5rem;
 }
-.img-espaco-1{
-    background-image: url('images/espaco-tradicao.png');
+.img-espaco-1, .img-espaco-2{
     width: 25vw;
     height: 22.5rem;
 }
-.img-espaco-2{
-    background-image: url('images/chef2-tradicao.png');
-    width: 25vw;
-    height: 22.5rem;
-}
+
 #section-tradition .overlap div:nth-child(2){
     left: 4vw;
     bottom: 10rem;

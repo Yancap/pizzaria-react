@@ -1,8 +1,13 @@
 import React from 'react'
 import { LabelImg } from '../../components/common/LabelImg'
-import { GridFooter } from './utility/GridFooter'
-import { GridTop } from './utility/GridTop'
 import './css/Espace.css'
+import espace1 from '../../assets/images/espace/foto-espaco-1.png'
+import espace2 from '../../assets/images/espace/foto-espaco-2.png'
+import espace3 from '../../assets/images/espace/foto-espaco-3.png'
+import espace4 from '../../assets/images/espace/foto-espaco-4.png'
+import espace5 from '../../assets/images/espace/foto-espaco-5.png'
+import espace6 from '../../assets/images/espace/foto-espaco-6.png'
+
 import { Head } from '../Head'
 import styled from 'styled-components'
 
@@ -26,13 +31,25 @@ export const Espace = () => {
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
           It has survived not only five centuries</Paragraph>
           <div className='grid-espace mb-5'>
-              <div className='image espace-1'></div>
-              <div className='image espace-2'></div>
-              <div className='image espace-3'></div>
-          
-              <div className='image espace-4'></div>
-              <div className='image espace-5'></div>
-              <div className='image espace-6'></div>
+              <div className='espace-1'>
+                <img src={espace1} alt="" className="img-fluid" />
+              </div>
+              <div className='espace-2'>
+                <img src={espace2} alt="" className="img-fluid" />
+              </div>
+              <div className='espace-3'>
+                <img src={espace3} alt="" className="img-fluid" />
+              </div>
+    
+              <div className='espace-4'>
+                <img src={espace4} alt="" className="img-fluid" />
+              </div>
+              <div className='espace-5'>
+                <img src={espace5} alt="" className="img-fluid" />
+              </div>
+              <div className='espace-6'>
+                <img src={espace6} alt="" className="img-fluid" />
+              </div>
           </div>
 
           

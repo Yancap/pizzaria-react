@@ -16,34 +16,28 @@
     ;
     gap: 1vw;
 }
-
-.image{
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+.grid-espace .img-fluid{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
 }
+
 .espace-1{
-    background-image: url('images/foto-espaco-1.png');
     grid-area: ft-1;
 }
 .espace-2{
-    background-image: url('images/foto-espaco-2.png');
     grid-area: ft-2;
 }
 .espace-3{
-    background-image: url('images/foto-espaco-3.png');
     grid-area: ft-3;
 }
 .espace-4{
-    background-image: url('images/foto-espaco-4.png');
     grid-area: ft-4;
 }
 .espace-5{
-    background-image: url('images/foto-espaco-5.png');
     grid-area: ft-5;
 }
 .espace-6{
-    background-image: url('images/foto-espaco-6.png');
     grid-area: ft-6;
 }
 
