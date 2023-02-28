@@ -41,7 +41,7 @@ export const NavBurguer = ({setPage}) => {
                             navs.map((nav, i)=>(
                                 <li key={i} className="nav-item" >
                                     <Link to={nav.path}>
-                                        <a className="nav-link text-primary text-display mb-2" href='#' >{nav.name}</a>
+                                        <a className="nav-link text-primary text-display mb-2" href='#'>{nav.name}</a>
                                     </Link>
                                 </li>
                             ))

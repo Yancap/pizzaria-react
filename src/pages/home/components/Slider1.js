@@ -38,7 +38,7 @@ export const Slider1 = () => {
           </div>
         </ContainerDesktop>
 
-        <TitleH3 name='Rodizio + Refil livre' className='text-display text-warning mt-5 fs-1' />
+        <TitleH3 name='Rodizio + Refil livre' className='text-display text-warning mt-sm-5 fs-1' />
         <div className='div-price d-flex col-12 justify-content-between flex-wrap '>
             <Price className='text-display text-primary'>R$ 49,90</Price>
             <Btn name='FAÇA SUA RESERVA' link='#' classBtn='btn btn-warning px-3 py-3 align-self-center flex-shrink-0' classAnchor='text-danger text-display  fs-1'/>

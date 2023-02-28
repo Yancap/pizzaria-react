@@ -155,7 +155,7 @@ a{
     
 }
 @media screen and (max-width: 500px) {
-    .offcanvas .offcanvas-end{
+    .offcanvas.offcanvas-end{
         width: 60vw;
     }
     
@@ -191,5 +191,13 @@ a{
 @media screen and (max-width: 450px){
     .info-footer, .link-footer{
         font-size: 14px;
+    }
+    .btn-menu{
+        font-size: 1.25rem;
+        padding: 12px;
+        width: 70%;
+    }
+    :root{
+        --padding-default: 7.5%;
     }
 }

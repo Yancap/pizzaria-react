@@ -216,6 +216,19 @@
     .container-invite, .container-invite div, .container-images{
         font-size: 14px;
     }
+    .container-images div{
+        width: 30vw;
+        height: 32vw;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container-invite, .container-invite div, .container-images{
+        font-size: 12px;
+    }
+    .container-invite{
+        margin-bottom: 25px;
+    }
 }
 /* --------------- TRADIÇÂO --------------- */
 #section-tradition{
@@ -272,3 +285,20 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 480px){
+    #section-tradition .overlap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #section-tradition .overlap div{
+        margin-bottom: 15px;
+        width: 90%;
+        height: 80%;
+    }
+    #section-tradition .overlap div:nth-child(2){
+        position: static !important;
+    }
+} 
