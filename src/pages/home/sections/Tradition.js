@@ -1,16 +1,10 @@
 import React from 'react'
 import { TitleSection } from '../components/TitleSection'
 import { Images } from '../components/Images'
-import styled from 'styled-components'
 import imgTradition from '../../../assets/images/home/chef1-tradicao.png'
 import imgEspace from '../../../assets/images/home/espaco-tradicao.png'
 import imgChef from '../../../assets/images/home/chef2-tradicao.png'
 
-const ContainerMobile = styled.div`
-    @media screen and (max-width: 992px) {
-        
-    }
-`
 
 export const Tradition = () => {
   return (
