@@ -4,7 +4,7 @@ import rodizio from './pizzaria-3.jpg'
 
 export const Label = styled.label`
     font-family: 'Gabriela';
-    font-size: 40px;
+    font-size: calc(2rem + 0.7vw);
     color: #000000;
     position: relative;
     &::after{
@@ -17,6 +17,9 @@ export const Label = styled.label`
         height: 32px;
         background-image: url(${pizza});
         background-size: cover;
+    }
+    @media screen and (max-width: 450px){
+        font-size: calc(1.5rem + 0.7vw);
     }
     
 `
@@ -61,7 +64,7 @@ export const Submit = styled.button`
     background-color: #64040B;
     color: #F9EEC9;
     font-family: 'Gabriela';
-    font-size: 2rem;
+    font-size: calc(1.2rem + 1vw);
     padding: 5px 30px;
     &:disabled{
         background-color: #FFF8EA;
@@ -93,9 +96,15 @@ export const ContainerImage = styled.div`
     background-position: center;
     border-radius: 4px;
     align-self: center;
+    @media screen and (max-width: 650px){
+        display: none;
+    }
 `
 export const Form = styled.form`
-
+    width: 58%;
+    @media screen and (max-width: 650px){
+        width: 100%;
+    }
 `
 export const Message = styled.span`
     margin: 10px 0px;

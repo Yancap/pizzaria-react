@@ -13,7 +13,7 @@ export const Contacts = () => {
     <main>
         <Head title='Contatos' />
         <section className='container-fluid py-4 d-flex justify-content-between'>
-            <Form className='col-7' onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit}>
                 <ContainerLabel>
                     <Label htmlFor='name' >Nome</Label>
                     <Input id='name' type='text' value={form.name} onChange={handleChange} placeholder='Seu Nome' required/>
@@ -28,7 +28,6 @@ export const Contacts = () => {
                     {success ? <Message>Enviado com Sucesso</Message> : (error ? <Message className='error'>{error}</Message>: null)}
                 </ContainerLabel>
                 {loading ? <Submit disabled>ENVIANDO</Submit> : <Submit>ENVIAR</Submit>}
-                
             </Form>
             <ContainerImage />
         </section>
