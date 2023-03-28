@@ -24,7 +24,7 @@ export const Footer = ({setPage}) => {
                 <TitleH3 name='Contatos'className='text-display mb-4'/>
                 <div className='d-flex flex-column justify-content-between' style={{height: '50%'}}>
                     <div className='text-tertiary d-flex align-items-center info-footer'>
-                        <i class="fa-solid fa-location-dot fa-xl me-2"></i>
+                        <i className="fa-solid fa-location-dot fa-xl me-2"></i>
                         <p >Rio de Janeiro, RJ, Rua da pizza - 204 </p>
                     </div>
                     <div className='text-tertiary d-flex align-items-center info-footer'>
@@ -32,7 +32,7 @@ export const Footer = ({setPage}) => {
                         <p>+55 (21)98765-4321 / 2234-5678</p>
                     </div>
                     <div className='text-tertiary d-flex align-items-center info-footer'>
-                        <i class="fa-solid fa-envelope fa-xl me-2"></i>
+                        <i className="fa-solid fa-envelope fa-xl me-2"></i>
                         <p>pizzascript@email.com</p>
                     </div>
                 </div>
@@ -56,15 +56,15 @@ export const Footer = ({setPage}) => {
                 <TitleH3 name="Redes" className='text-display mb-4'/>
                 <div className='d-flex flex-column justify-content-between' style={{height: '50%'}}>
                     <div className='text-tertiary d-flex align-items-center info-footer'>
-                        <i class="fa-brands fa-square-facebook fa-xl me-2"></i>
+                        <i className="fa-brands fa-square-facebook fa-xl me-2"></i>
                         <p>Facebook</p>
                     </div>
                     <div className='text-tertiary d-flex align-items-center info-footer'>
-                        <i class="fa-brands fa-instagram fa-xl me-2"></i>
+                        <i className="fa-brands fa-instagram fa-xl me-2"></i>
                         <p>Instagram</p>
                     </div>
                     <div className='text-tertiary d-flex align-items-center info-footer' >
-                        <i class="fa-brands fa-linkedin fa-xl me-2"></i>
+                        <i className="fa-brands fa-linkedin fa-xl me-2"></i>
                         <p>LinkedIn</p>
                     </div>
                 </div>

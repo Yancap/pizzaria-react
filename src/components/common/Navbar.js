@@ -6,9 +6,10 @@ import { Logo } from './Logo'
 export const Navbar = () => {
   const navs = [
     {name:"Restaurante", path:"nosso-espaco"}, 
-    {name:"Cardápio", path:"cardapio"}, 
-    {name:"Reservas", path:"reservas"}, 
-    {name:"Contatos", path:"contatos"}
+    {name:"Cardápio", path:"cardapio"},
+    {name:"Contatos", path:"contatos"},
+    {name:"Reservas", path:"reservas"}
+    
   ]
   return (
     <div className='d-flex justify-content-between'>
