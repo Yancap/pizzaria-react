@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const useForm = () => {
-  const __URL__ = "http://localhost:3001/email"
+  const __URL__ = "https://pizzascript-emailservice.onrender.com"
   const [ form, setForm ] = React.useState({
     name: '', email: '', message: ''
   })
@@ -15,7 +15,7 @@ export const useForm = () => {
       setLoading(true)
       setError(null)
       setSuccess(null)
-      const response = await (await fetch(__URL__, {
+      const response = await (await fetch(__URL__+"/email", {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
